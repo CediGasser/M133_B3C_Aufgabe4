@@ -4,4 +4,33 @@ main {
     padding: 20px;
     width: fit-content;
     margin: auto;
+    display: flex;  
+    flex-flow: column;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    padding: 12px 12px 0px 0;
+}
+
+#total {
+    margin: 20px 0px;
+    color: green;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px 0px 5px 0px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
 }

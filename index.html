@@ -3,12 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You are Gay</title>
+    <title>Preisrechner</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <main>
         <h1>Block 03c - Aufgabe 4</h1>
+
+        <label>Wieviele Schrauben?: </label>
+        <input id="screws" type="number">
+
+        <label>Wieviele Muttern?: </label>
+        <input id="screw_nuts" type="number">
+
+        <label>Wieviele Unterlegsscheiben?: </label>
+        <input id="grommets" type="number">
+
+        <input id="submit" type="submit">
+        <input id="reset" type="reset">
+
+
+        <p>==> <span id="total"></span> CHF</p>
     </main>
 
     <script src="Script.js"></script>
